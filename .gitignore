@@ -26,3 +26,5 @@ db.sqlite3
 staticfiles/
 media/
 
+SECRET_KEY = 'django-insecure-!#qlb+f0)&(j%$%ab0#b+k7acx)yhx)nkq3uebn6((f=&h9wq6'
+
