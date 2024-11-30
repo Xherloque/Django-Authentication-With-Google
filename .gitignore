@@ -1,0 +1,28 @@
+# Ignore Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environments
+env/
+venv/
+
+# Ignore Django secret files
+*.sqlite3
+db.sqlite3
+*.log
+
+# Ignore local settings
+*.local_settings.py
+
+# Ignore compiled files
+*.so
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+
+# Ignore static files and uploads (optional if generated dynamically)
+staticfiles/
+media/
+

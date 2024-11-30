@@ -1,0 +1,13 @@
+{% extends 'users/base.html' %}
+{% block content %}
+<h1>Login</h1>
+<form method="post">
+    {% csrf_token %}
+    <label for="email_or_username">Email or Username:</label>
+    <input type="text" id="email_or_username" name="email_or_username" required>
+    
+    <button type="submit">Continue</button>
+</form>
+<p>Or login with:</p>
+<a class="google-login" href="{% url 'social:begin' 'google-oauth2' %}?next={{ request.path }}">Google</a>
+{% endblock %}
