@@ -3,9 +3,14 @@
 *.pyo
 __pycache__/
 
-# Ignore virtual environments
+# Ignore virtual environment
 env/
 venv/
+Lib/
+Scripts/
+bin/
+Include/
+
 
 # Ignore Django secret files
 *.sqlite3
