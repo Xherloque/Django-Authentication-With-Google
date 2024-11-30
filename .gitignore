@@ -13,15 +13,16 @@ Include/
 
 
 # Ignore Django secret files
-*.sqlite3
+.sqlite3
 db.sqlite3
-*.log
+.log
+.env
 
 # Ignore local settings
-*.local_settings.py
+.local_settings.py
 
 # Ignore compiled files
-*.so
+.so
 
 # Ignore IDE and editor files
 .idea/
@@ -31,5 +32,4 @@ db.sqlite3
 staticfiles/
 media/
 
-SECRET_KEY = 'django-insecure-!#qlb+f0)&(j%$%ab0#b+k7acx)yhx)nkq3uebn6((f=&h9wq6'
 
