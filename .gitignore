@@ -17,6 +17,7 @@ Include/
 db.sqlite3
 .log
 .env
+pyven.cfg
 
 # Ignore local settings
 .local_settings.py
